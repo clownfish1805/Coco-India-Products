@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <header>
+      <div class="container">
+
+
+        <div class="heading">
+          <h3>COCO INDIA PRODUCTS
+        <h1>Manufacturer Of Coconut Shell Products</h1></h3>
+      </div><br><br>
+
+
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="explore.html">EXPLORE</a></li>
+
+          </ul>
+        </nav>
+
+
+      </div>
+      </header>
+
+      <div class="img">
+        <img src="./images/logo1.png" alt="logo" >
+        
+      <main>
+
+
+       
+          <style>
+            .mySlides {display:none;}
+            .SPOT{
+                text-align: center;
+            }
+            
+            .sh{
+                padding-left: 20%;
+            }
+            
+            </style>
+            </head>
+            
+            <body>
+              <div class="container1">
+            
+            <h2 class="SPOT">OUR SPOTLIGHT</h2>
+            
+            <div class="sh" style="max-width:60%;" style="max-height: 80%;" style="margin: auto;">
+              <img class="mySlides" src="./images/sh1.jpg" style="width:100%">
+              <img class="mySlides" src="./images/sh2.jpg" style="width:100%">
+              <img class="mySlides" src="./images/sh3.jpg" style="width:100%">
+              <img class="mySlides" src="./images/sh4.jpg" style="width:100%">
+              <img class="mySlides" src="./images/sh5.jpg" style="width:100%">
+              <img class="mySlides" src="./images/sh6.jpg" style="width:100%">
+              <img class="mySlides" src="./images/sh7.jpg" style="width:100%">
+              <img class="mySlides" src="./images/sh8.jpg" style="width:100%">
+              <img class="mySlides" src="./images/sh9.jpg" style="width:100%">
+              <img class="mySlides" src="./images/sh10.jpg" style="width:100%">
+            <div class="down" style="font-size: xx-large;" style="color: rgb(13, 50, 13);"  onclick="TransitionEvent" >
+              <a href="products.html">See More...</a>
+            
+            </div>
+            
+            </div>
+
+
+
+            <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
+          
+
+      </main>
+    
+      <footer>
+        <div class="footii">
+          <p>&copy; 2023 COCO INDIA PRODUCTS E-commerce. All rights reserved.   |&nbsp;&nbsp; Made with &hearts;</p>
+        </div>
+        
+      </footer>
+      
+   
+      
+      
+</body>
+</html>
